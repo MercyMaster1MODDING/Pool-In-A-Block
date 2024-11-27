@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Pool-In-A-Block.iml" filepath="$PROJECT_DIR$/.idea/Pool-In-A-Block.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Pool_in_a_Block.iml" filepath="$PROJECT_DIR$/.idea/modules/Pool_in_a_Block.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Pool_in_a_Block.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Pool_in_a_Block.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Pool_in_a_Block.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Pool_in_a_Block.test.iml" />
     </modules>
   </component>
 </project>
