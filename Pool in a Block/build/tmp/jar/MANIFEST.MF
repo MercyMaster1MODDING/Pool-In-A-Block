@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: pool_in_a_block
+Specification-Vendor: MercyMaster1
+Specification-Version: 1
+Implementation-Title: Pool in a Block
+Implementation-Version: 1.20.1-1.0.0.0
+Implementation-Vendor: MercyMaster1
+Implementation-Timestamp: 2024-11-26T17:06:23-0800
+
