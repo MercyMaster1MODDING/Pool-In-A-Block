@@ -1,9 +1,23 @@
 package com.poolinablock.pool_in_a_block_mod;
 
-import net.minecraftforge.fml.common.Mod;
+import com.poolinablock.Main_Mod_File;
+import net.minecraft.world.item.Item;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
-@Mod(Items.MOD_ID)
 public class Items {
 
-    public static final String MOD_ID = "pool_in_a_block";
+
+    public static final DeferredRegister<Item> ITEMS =
+            DeferredRegister.create(ForgeRegistries.ITEMS, Main_Mod_File.MOD_ID);
+
+    public static final RegistryObject<Item> Fluid_Generator = ITEMS.register("Fluid Generator",
+            () -> new Item(new Item.Properties()));
+
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
+
+    }
 }
