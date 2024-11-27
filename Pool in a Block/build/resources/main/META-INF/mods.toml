@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[46,)"
+
+license="NONE"
+issueTrackerURL="https://github.com/MinecraftForge/MinecraftForge/issues"
+showAsResourcePack=false
+
+[[mods]]
+  modId= "pool_in_a_block"
+  version="1.0.0.0"
+  displayName="Pool In A Block"
+  updateJSONURL="https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json"
+  displayURL="https://minecraftforge.net"
+  logoFile="logo.png"
+  credits=""
+  authors="MercyMaster1"
+  description='''
+  By pumping ten thousand buckets worth of any single liquid, you can essentially create a infinite pool in a block.
+  '''
+  displayTest="MATCH_VERSION"
+
+[[dependencies.pool_in_a_block]]
+  modId="forge"
+  mandatory=true
+  versionRange="[47.3.0]"
+  ordering="NONE"
+  side="BOTH"
+
+[[dependencies.pool_in_a_block]]
+  modId="minecraft"
+  mandatory=true
+  versionRange="[1.20.1]"
+  ordering="NONE"
+  side="BOTH"
