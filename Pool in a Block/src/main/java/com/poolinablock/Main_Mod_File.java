@@ -25,7 +25,7 @@ public class Main_Mod_File {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if event,getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(Items.Fluid_Generator);
+            event.accept(Items.fluid_generator);
             }
         }
 */

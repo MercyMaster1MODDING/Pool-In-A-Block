@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "Main_Mod_File:item/Fluid_Generator"
+    "layer0": "Main_Mod_File:item/fluid_generator"
   }
 }
