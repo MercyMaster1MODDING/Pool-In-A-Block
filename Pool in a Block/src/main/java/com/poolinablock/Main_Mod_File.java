@@ -5,7 +5,6 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
@@ -20,7 +19,7 @@ public class Main_Mod_File {
 
         //Replace Items with the class name to register a class
         Items.register(modEventBus);
-
+/*
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
 
@@ -29,5 +28,6 @@ public class Main_Mod_File {
             event.accept(Items.Fluid_Generator);
             }
         }
+*/
     }
 }
