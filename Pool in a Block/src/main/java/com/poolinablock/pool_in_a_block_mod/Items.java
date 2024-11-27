@@ -13,7 +13,7 @@ public class Items {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Main_Mod_File.MOD_ID);
 
-    public static final RegistryObject<Item> fluid_generator = ITEMS.register("fluid generator",
+    public static final RegistryObject<Item> fluid_generator = ITEMS.register("fluid_generator",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
