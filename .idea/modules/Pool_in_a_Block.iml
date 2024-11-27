@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="Pool in a Block" external.linked.project.path="$MODULE_DIR$/../../Pool in a Block" external.root.project.path="$MODULE_DIR$/../../Pool in a Block" external.system.id="GRADLE" external.system.module.group="https://github.com/MercyMaster1MODDING/Pool-In-A-Block.git" external.system.module.version="1.20.1-1.0.0.0" type="JAVA_MODULE" version="4">
-  <component name="AdditionalModuleElements">
-    <content url="file://$MODULE_DIR$/../../Pool in a Block" dumb="true">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../Pool in a Block">
       <excludeFolder url="file://$MODULE_DIR$/../../Pool in a Block/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../Pool in a Block/build" />
     </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
